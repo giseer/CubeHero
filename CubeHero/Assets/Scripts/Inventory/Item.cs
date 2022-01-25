@@ -15,20 +15,15 @@ public enum ItemCollectionMode
 [CreateAssetMenu(fileName = "Item", menuName = "Item")]
 public class Item : ScriptableObject
 {
+    [Header("Paramaters")]
     [SerializeField] private int id;
-    [SerializeField] private ItemCollectionMode itemCollectionMode;
-    [SerializeField] private Image icon;
+    [SerializeField] private Sprite icon;
     [SerializeField] private string name;
     [TextArea][SerializeField] private string description;
-
-    public Item(int id, ItemCollectionMode itemCollectionMode, Image icon, string name, string description)
-    {
-        this.id = id;
-        this.itemCollectionMode = itemCollectionMode;
-        this.icon = icon;
-        this.name = name;
-        this.description = description;
-    }
+    
+    [Header("General Information")]
+    [SerializeField] private ItemCollectionMode itemCollectionMode;
+    
 
     public override String ToString()
     {

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 963a0caf0b513144b9492b0fdd983cf1, type: 3}
+  m_Name: Health Potion
+  m_EditorClassIdentifier: 
+  id: 1
+  icon: {fileID: 21300000, guid: 1bfdbe7e6965bf744832cb2434c72c12, type: 3}
+  name: Pocion de Vida
+  description: Esta pocion Restaura 4 puntos de vida, que esto equivale a 1 corazon.
+  itemCollectionMode: 0
+  HpRegeneration: 4

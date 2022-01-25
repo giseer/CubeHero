@@ -9,11 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51b00de39c0a9ad438c2af1eb043906f, type: 3}
-  m_Name: Corona
+  m_Script: {fileID: 11500000, guid: 8d3c91e5acebf8e41b224fa28aadec99, type: 3}
+  m_Name: Mana Potion
   m_EditorClassIdentifier: 
-  id: 0
+  id: 2
+  icon: {fileID: 21300000, guid: b124768afb89e08458e6d2c5f3b43f62, type: 3}
+  name: Pocion de Mana
+  description: Esta pocion Restaura 4 puntos de mana.
   itemCollectionMode: 0
-  Icon: {fileID: 0}
-  name: 
-  description: 
+  MpRegeneration: 4
