@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory
+public class Inventory:MonoBehaviour
 {
-    private List<Item> itemList;
+    [Header("Items")] 
+    [SerializeField] private Item[] items;
+    [SerializeField] private Player player;
+    [SerializeField] private int slotsNumber = 28;
+    
+    public int SlotsNumber => slotsNumber;
 
-    public Inventory()
+    private void Start()
     {
-        this.itemList = new List<Item>();
+        items = new Item[slotsNumber];
     }
 }

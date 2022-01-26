@@ -18,7 +18,7 @@ public class Item : ScriptableObject
     [Header("Paramaters")]
     [SerializeField] private int id;
     [SerializeField] private Sprite icon;
-    [SerializeField] private string name;
+    [SerializeField] private string itemName;
     [TextArea][SerializeField] private string description;
     
     [Header("General Information")]
@@ -27,7 +27,7 @@ public class Item : ScriptableObject
 
     public override String ToString()
     {
-        return "|Id: " + id + " | Collection Mode: " + itemCollectionMode + " | Icon: " + icon + " | Name: " + name +
+        return "|Id: " + id + " | Collection Mode: " + itemCollectionMode + " | Icon: " + icon + " | Name: " + itemName +
                " | Description: " + description;
     }
 

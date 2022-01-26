@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,6 +8,9 @@ public class UIManager : MonoBehaviour
 {
     [Header("General")]
     [SerializeField] private Player player;
+
+    [Header("Panels")] 
+    [SerializeField] private GameObject InventoryPanel;
 
     [Header("Life")] 
     [SerializeField] private GameObject heartsContainer;
@@ -18,14 +22,16 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        StartCoroutine(HudUpdate());
+        HudUpdate();
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            ToggleInventoryPanel();
+        }
     }
 
-    private IEnumerator HudUpdate()
+    private void HudUpdate()
     {
         LifeHudUpdate();
-        StartCoroutine(ExpHudUpdate(1.0f));
-        yield return null;
     }
 
     private void LifeHudUpdate()
@@ -42,16 +48,11 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private IEnumerator ExpHudUpdate(float expNormalized)
+    #region Panels
+
+    private void ToggleInventoryPanel()
     {
-        float currentScale = expFillContainer.transform.localScale.y;
-        float updateQuantity = currentScale + expNormalized;
-        while (expNormalized - currentScale > Mathf.Epsilon)
-        {
-            currentScale -= updateQuantity * Time.deltaTime;
-            expFillContainer.transform.localScale = new Vector3(1, currentScale);
-        }
-        
-        yield return null;
+        InventoryPanel.SetActive(!InventoryPanel.activeSelf);
     }
+    #endregion
 }
