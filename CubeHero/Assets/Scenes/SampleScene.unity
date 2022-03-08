@@ -317,8 +317,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeBase: {fileID: 833664080}
   InventoryPanel: {fileID: 0}
-  heartsContainer: {fileID: 0}
-  heartPrefab: {fileID: 0}
+  heartsContainer: {fileID: 1557005094}
+  heartPrefab: {fileID: 9119459868659032158, guid: a849d21a2aa13f940a1cb11e31f404ec, type: 3}
   expFillContainer: {fileID: 0}
 --- !u!1 &833664073
 GameObject:
@@ -653,8 +653,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 230.448, y: -50}
-  m_SizeDelta: {x: 460.8961, y: 100}
+  m_AnchoredPosition: {x: 498.09808, y: -50}
+  m_SizeDelta: {x: 996.1962, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1557005096
 MonoBehaviour:
@@ -677,6 +677,6 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: 0, y: 0}
+  m_Spacing: {x: -50, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
