@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c15311b-89f4-4add-880d-29c0b71ea1bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Scripts/PlayerAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Scripts/PlayerAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Idle_Down.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Idle_Down.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Idle_Left.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Idle_Left.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Idle_Right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Idle_Right.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Idle_Up.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Idle_Up.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CubeHero/.idea/.idea.CubeHero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CubeHero/.idea/.idea.CubeHero/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CubeHero/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../CubeHero/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CubeHero/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CubeHero/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Tulio.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../CubeHero/Assets/Sprites/Personajes/Tulio/Animaciones/Tulio.controller" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="266gguGyGaAxsoNJndL3lnnLwlO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1646749565476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646749565476</updated>
+      <workItem from="1646749569952" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

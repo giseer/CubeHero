@@ -8,9 +8,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
     
     private Rigidbody2D _rigidbody2D;
+
+    private bool _isMoving => _movementDirection.magnitude > 0f;
     
     private Vector2 _movementDirection;
     private Vector2 _input;
+
+    public bool IsMoving => _isMoving;
+    public Vector2 MovementDirection => _movementDirection;
 
 
     private void Awake()
@@ -34,6 +39,11 @@ public class PlayerMovement : MonoBehaviour
     private void Movement()
     {
         _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        if (_input.x != 0f)
+        {
+            _input.y = 0;
+        }
         
         // X
         if (_input.x > 0.1f)
