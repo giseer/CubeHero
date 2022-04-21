@@ -1,28 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using Cinemachine;
 using UnityEngine;
 
 public class ConfinerZone : MonoBehaviour
 {
-    [SerializeField] private new CinemachineVirtualCamera camera;
+    [SerializeField] private CinemachineVirtualCamera cameraConfiner;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            camera.gameObject.SetActive(true);
+            cameraConfiner.gameObject.SetActive(true);
             Debug.Log("He entrado a la zona");
         }
+        Debug.Log("No es player");
     }
-    
-    private void OnTriggerExit2D(Collider2D other)
-    {
+     
+    private void OnTriggerExit2D(Collider2D other) {
         if (other.CompareTag("Player"))
         {
-            camera.gameObject.SetActive(false);
-            Debug.Log("He salido de la zona");
+            cameraConfiner.gameObject.SetActive(false);
         }
     }
-    
+
 }

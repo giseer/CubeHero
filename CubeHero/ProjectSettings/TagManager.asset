@@ -44,9 +44,15 @@ TagManager:
   - name: Background
     uniqueID: 234291941
     locked: 0
+  - name: Buildings
+    uniqueID: 2731933463
+    locked: 0
   - name: Foreground
     uniqueID: 2386846267
     locked: 0
   - name: Player
     uniqueID: 3246153429
+    locked: 0
+  - name: MoreForeground
+    uniqueID: 55117001
     locked: 0
